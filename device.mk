@@ -18,6 +18,8 @@ LOCAL_PATH := device/samsung/noblelte
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
+$(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_l_mr1.mk)
+
 # Inherit from universal7420-common
 $(call inherit-product, device/samsung/universal7420-common/device-common.mk)
 
