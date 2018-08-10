@@ -16,18 +16,20 @@
 
 LOCAL_PATH := device/samsung/noblelte
 
-$(call inherit-product, $(LOCAL_PATH)/full_noblelte.mk)
+# Inherit from those products. Most specific first.
+$(call inherit-product, $(LOCAL_PATH)/device.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
-# Inherit some common Lineage stuff.
+# Inherit common Lineage phone.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := lineage_noblelte
 PRODUCT_DEVICE := noblelte
 PRODUCT_MODEL := SM-N920C
-PRODUCT_BRAND := Samsung
+PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung

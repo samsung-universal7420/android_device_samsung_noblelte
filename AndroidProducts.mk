@@ -17,4 +17,5 @@
 LOCAL_PATH := device/samsung/noblelte
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/full_noblelte.mk
+    $(LOCAL_DIR)/lineage_noblelte.mk
+
