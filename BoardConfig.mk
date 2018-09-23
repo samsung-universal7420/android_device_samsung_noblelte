@@ -17,5 +17,11 @@
 # Inherit from universal7420-common
 include device/samsung/universal7420-common/BoardConfigCommon.mk
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := noblelte,nobleltecan,nobleltedd,nobleltedv,nobleltejv,nobleltektt,nobleltelgt,noblelteskt,nobleltespr,nobleltetmo,nobleltezt
+
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/noblelte/bluetooth
+
+# Init
+TARGET_INIT_VENDOR_LIB := libinit_noblelte
