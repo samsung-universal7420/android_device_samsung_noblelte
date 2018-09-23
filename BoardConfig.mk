@@ -26,6 +26,9 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/noblelte/bluetooth
 # Init
 TARGET_INIT_VENDOR_LIB := libinit_noblelte
 
+# Kernel
+TARGET_KERNEL_CONFIG := lineageos_noblelte_defconfig
+
 # Partitions
 BOARD_HAS_NO_MISC_PARTITION:= true
 TARGET_USERIMAGES_USE_F2FS := true
