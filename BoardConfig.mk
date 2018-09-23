@@ -16,3 +16,6 @@
 
 # Inherit from universal7420-common
 include device/samsung/universal7420-common/BoardConfigCommon.mk
+
+# Bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/noblelte/bluetooth
