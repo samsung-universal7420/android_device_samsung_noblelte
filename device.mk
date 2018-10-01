@@ -20,3 +20,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Inherit from universal7420-common
 $(call inherit-product, device/samsung/universal7420-common/device-common.mk)
+
+# call the proprietary setup
+$(call inherit-product, vendor/samsung/noblelte/noblelte-vendor.mk)
