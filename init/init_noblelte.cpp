@@ -89,80 +89,80 @@ void vendor_load_properties()
 		/* SM-N9208 */
 		property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "samsung/nobleltezt/noblelte:7.0/NRD90M/N9208ZTS5CRH3:user/release-keys");
 		property_override("ro.build.description", "nobleltezt-user 7.0 NRD90M N9208ZTS5CRH3 release-keys");
-		property_override_dual("ro.product.model", "ro.vendor.product.model", "SM-N9208");
-		property_override_dual("ro.product.device", "ro.vendor.product.device", "noblelte");
+		property_override_dual("ro.product.model", "ro.product.vendor.model", "SM-N9208");
+		property_override_dual("ro.product.device", "ro.product.vendor.device", "noblelte");
 		property_override("ro.product.name", "nobleltezt");
 	}
 	else if (bootloader.find("N920C") != std::string::npos) {
 		/* SM-N920C */
 		property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "samsung/nobleltejv/noblelte:7.0/NRD90M/N920CXXU5CRL3:user/release-keys");
 		property_override("ro.build.description", "nobleltejv-user 7.0 NRD90M N920CXXU5CRL3 release-keys");
-		property_override_dual("ro.product.model", "ro.vendor.product.model", "SM-N920C");
-		property_override_dual("ro.product.device", "ro.vendor.product.device", "noblelte");
+		property_override_dual("ro.product.model", "ro.product.vendor.model", "SM-N920C");
+		property_override_dual("ro.product.device", "ro.product.vendor.device", "noblelte");
 		property_override("ro.product.name", "nobleltejv");
 	}
 	else if (bootloader.find("N920G") != std::string::npos) {
 		/* SM-N920G */
 		property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "samsung/nobleltedd/noblelte:7.0/NRD90M/N920GUBU5CSJ1:user/release-keys");
 		property_override("ro.build.description", "nobleltedd-user 7.0 NRD90M N920GUBU5CSJ1 release-keys");
-		property_override_dual("ro.product.model", "ro.vendor.product.model", "SM-N920G");
-		property_override_dual("ro.product.device", "ro.vendor.product.device", "noblelte");
+		property_override_dual("ro.product.model", "ro.product.vendor.model", "SM-N920G");
+		property_override_dual("ro.product.device", "ro.product.vendor.device", "noblelte");
 		property_override("ro.product.name", "nobleltedd");
 	}
 	else if (bootloader.find("N920I") != std::string::npos) {
 		/* SM-N920I */
 		property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "samsung/nobleltedv/noblelte:7.0/NRD90M/N920IDVU5CRK2:user/release-keys");
 		property_override("ro.build.description", "nobleltedv-user 7.0 NRD90M N920IDVU5CRK2 release-keys");
-		property_override_dual("ro.product.model", "ro.vendor.product.model", "SM-N920I");
-		property_override_dual("ro.product.device", "ro.vendor.product.device", "noblelte");
+		property_override_dual("ro.product.model", "ro.product.vendor.model", "SM-N920I");
+		property_override_dual("ro.product.device", "ro.product.vendor.device", "noblelte");
 		property_override("ro.product.name", "nobleltedv");
 	}
 	else if (bootloader.find("N920K") != std::string::npos) {
 		/* SM-N920K */
 		property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "samsung/nobleltektt/nobleltektt:7.0/NRD90M/N920KKKU2DRG3:user/release-keys");
 		property_override("ro.build.description", "nobleltektt-user 7.0 NRD90M N920KKKU2DRG3 release-keys");
-		property_override_dual("ro.product.model", "ro.vendor.product.model", "SM-N920K");
-		property_override_dual("ro.product.device", "ro.vendor.product.device", "nobleltektt");
+		property_override_dual("ro.product.model", "ro.product.vendor.model", "SM-N920K");
+		property_override_dual("ro.product.device", "ro.product.vendor.device", "nobleltektt");
 		property_override("ro.product.name", "nobleltektt");
 	}
 	else if (bootloader.find("N920L") != std::string::npos) {
 		/* SM-N920L */
 		property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "samsung/nobleltelgt/nobleltelgt:7.0/NRD90M/N920LKLU2DRH1:user/release-keys");
 		property_override("ro.build.description", "nobleltelgt-user 7.0 NRD90M N920LKLU2DRH1 release-keys");
-		property_override_dual("ro.product.model", "ro.vendor.product.model", "SM-N920L");
-		property_override_dual("ro.product.device", "ro.vendor.product.device", "nobleltelgt");
+		property_override_dual("ro.product.model", "ro.product.vendor.model", "SM-N920L");
+		property_override_dual("ro.product.device", "ro.product.vendor.device", "nobleltelgt");
 		property_override("ro.product.name", "nobleltelgt");
 	}
 	else if (bootloader.find("N920P") != std::string::npos) {
 		/* SM-N920P */
 		property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "samsung/nobleltespr/nobleltespr:7.0/NRD90M/N920PVPS3DRH1:user/release-keys");
 		property_override("ro.build.description", "nobleltespr-user 7.0 NRD90M N920PVPS3DRH1 release-keys");
-		property_override_dual("ro.product.model", "ro.vendor.product.model", "SM-N920P");
-		property_override_dual("ro.product.device", "ro.vendor.product.device", "nobleltespr");
+		property_override_dual("ro.product.model", "ro.product.vendor.model", "SM-N920P");
+		property_override_dual("ro.product.device", "ro.product.vendor.device", "nobleltespr");
 		property_override("ro.product.name", "nobleltespr");
 	}
 	else if (bootloader.find("N920S") != std::string::npos) {
 		/* SM-N920S */
 		property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "samsung/noblelteskt/noblelteskt:7.0/NRD90M/N920SKSU2DRG3:user/test-keys");
 		property_override("ro.build.description", "noblelteskt-user 7.0 NRD90M N920SKSU2DRG3 release-keys");
-		property_override_dual("ro.product.model", "ro.vendor.product.model", "SM-N920S");
-		property_override_dual("ro.product.device", "ro.vendor.product.device", "noblelteskt");
+		property_override_dual("ro.product.model", "ro.product.vendor.model", "SM-N920S");
+		property_override_dual("ro.product.device", "ro.product.vendor.device", "noblelteskt");
 		property_override("ro.product.name", "noblelteskt");
 	}
 	else if (bootloader.find("N920T") != std::string::npos) {
 		/* SM-N920T */
 		property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "samsung/nobleltetmo/nobleltetmo:7.0/NRD90M/N920TUVS6ERH1:user/test-keys");
 		property_override("ro.build.description", "nobleltetmo-user 7.0 NRD90M N920TUVS6ERH1 release-keys");
-		property_override_dual("ro.product.model", "ro.vendor.product.model", "SM-N920T");
-		property_override_dual("ro.product.device", "ro.vendor.product.device", "nobleltetmo");
+		property_override_dual("ro.product.model", "ro.product.vendor.model", "SM-N920T");
+		property_override_dual("ro.product.device", "ro.product.vendor.device", "nobleltetmo");
 		property_override("ro.product.name", "nobleltetmo");
 	}
 	else if (bootloader.find("N920W8") != std::string::npos) {
 		/* SM-N920W8 */
 		property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "samsung/nobleltecan/nobleltecan:7.0/NRD90M/N920W8VLS6CRH1:user/test-keys");
 		property_override("ro.build.description", "nobleltecan-user 7.0 NRD90M N920W8VLS6CRH1 release-keys");
-		property_override_dual("ro.product.model", "ro.vendor.product.model", "SM-N920W8");
-		property_override_dual("ro.product.device", "ro.vendor.product.device", "nobleltecan");
+		property_override_dual("ro.product.model", "ro.product.vendor.model", "SM-N920W8");
+		property_override_dual("ro.product.device", "ro.product.vendor.device", "nobleltecan");
 		property_override("ro.product.name", "nobleltecan");
 	}
 
